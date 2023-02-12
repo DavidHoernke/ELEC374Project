@@ -7,10 +7,9 @@ module not_32bit(
     generate
         for(i=0;i<32;i=i+1) begin : loop
         // check with TA
-            if (Ra[i])
-                Rz[i]<=0;
-            else
-                Rz[i]<=1;
+       
+                assign Rz[i]=~Ra[i];
+
         end
     endgenerate
 endmodule

@@ -1,6 +1,6 @@
 module registerTB;
 	reg clock;
-	resg [31:0] input_a;
+	reg [31:0] input_a;
 	wire [31:0] output_a;
 	reg clear;
 	register register_instance (clear,clock,input_a,1,output_a);
