@@ -1,0 +1,11 @@
+module shr_TB;
+
+	reg [7:0] input_a, shift_num, output_a
+	
+	shr_32bit shr_instance(input_a, shift_num, shr_result);
+	
+	initial
+		begin
+		input_a <= 0b'
+		end 
+endmodule 

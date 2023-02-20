@@ -3,9 +3,8 @@ module shiftRight(
     input [31:0] shift_num,
     output [31:0] data_out
 );
-
-    wire[0] temp;
-    assign temp = data_in[31]; //used assign because its a wire
+    reg [0] temp; //idk if this works 
+    temp = data_in[31];
     assign data_out = temp | (data_in >>  shift_num); //combine the sign bit with the rest of the shift
     
 endmodule

@@ -2,45 +2,45 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\altera\13.0sp1\ELEC374Project\simulation\modelsim
-vregister
-IV]9IeanL9F;RMO8GJQ8b_3
-VQJ7BcC8E<;SbQ2oc2OG^C0
-Z1 dC:\altera\13.0sp1\ELEC374Project\simulation\modelsim
-w1674856178
-8C:/altera/13.0sp1/ELEC374Project/Register.v
-FC:/altera/13.0sp1/ELEC374Project/Register.v
+Z0 dC:\Users\Admin\Documents\ELEC374Project\ELEC374Project\simulation\modelsim
+vregisterTB
+!i10b 1
+!s100 R1EYIKKg[fD=zBzAPQAB^2
+I6`JiZX?3l6NK7@Y3BWT?T1
+VX:@KPj6BQORX^?R[m@SmQ2
+Z1 dC:\Users\Admin\Documents\ELEC374Project\ELEC374Project\simulation\modelsim
+w1676663349
+8C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/registerTB.v
+FC:/Users/Admin/Documents/ELEC374Project/ELEC374Project/registerTB.v
 L0 1
 Z2 OV;L;10.1d;51
 r1
-31
-Z3 o-vlog01compat -work work -O0
-!i10b 1
-!s100 =ZCeOX7Gl:WzEbbD@=HI[3
 !s85 0
-!s108 1674856319.816000
-!s107 C:/altera/13.0sp1/ELEC374Project/Register.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/ELEC374Project|C:/altera/13.0sp1/ELEC374Project/Register.v|
+31
+!s108 1676933236.734000
+!s107 C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/registerTB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Documents/ELEC374Project/ELEC374Project|C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/registerTB.v|
 !s101 -O0
-Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/ELEC374Project -O0
-vregisterTB
-!i10b 1
-!s100 o?<nLKNBL9FhV1@8YHCDL0
-IY7_G4O[1dc;8b5VMI1]c?2
-VX:@KPj6BQORX^?R[m@SmQ2
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ELEC374Project/ELEC374Project -O0
+nregister@t@b
+vshr
+IW2hHE08BT>8oSz6lMN5N=0
+V36an:Ko1mA=b4<2E[6aA50
 R1
-w1674856293
-8C:/altera/13.0sp1/ELEC374Project/registerTB.v
-FC:/altera/13.0sp1/ELEC374Project/registerTB.v
+w1676868696
+8C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/shr_32bit.v
+FC:/Users/Admin/Documents/ELEC374Project/ELEC374Project/shr_32bit.v
 L0 1
 R2
 r1
-!s85 0
 31
-!s108 1674856319.876000
-!s107 C:/altera/13.0sp1/ELEC374Project/registerTB.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/ELEC374Project|C:/altera/13.0sp1/ELEC374Project/registerTB.v|
-!s101 -O0
 R3
+!i10b 1
+!s100 S@;WK4hzQEl=GgfNV^FV_2
+!s85 0
+!s108 1676933236.643000
+!s107 C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/shr_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Documents/ELEC374Project/ELEC374Project|C:/Users/Admin/Documents/ELEC374Project/ELEC374Project/shr_32bit.v|
+!s101 -O0
 R4
-nregister@t@b
