@@ -1,3 +1,5 @@
+`timescale 1ns/10ps
+
 module mux32_1_tb();
 
   reg [31:0] i;
@@ -24,16 +26,12 @@ module mux32_1_tb();
     s = 5'b01000;
     #1;
     assert(o == 32'h5678_1234);
-
-    //add more test cases as necessary
-    //...
-
+    
     //final test case
     i = 32'hffff_ffff;
     s = 5'b11111;
     #1;
     assert(o == 32'hffff_ffff);
 
-    $finish;
   end
 endmodule
