@@ -11,7 +11,7 @@ module division_32bit(
         if(count > 0) begin
             //shift left
             A_reg = A_reg << 1;
-            A_reg[0] = Q_reg[31]
+            A_reg[0] = Q_reg[31];
             Q_reg = Q_reg << 1;
 
             //Subtract
@@ -26,7 +26,8 @@ module division_32bit(
             end 
             count = count - 1;
         end
-    z = {Q_reg[31:0, A_reg{31:0}]}//result
+    z = {Q_reg[31:0], A_reg[31:0]}; //result
+				
 
     end 
 

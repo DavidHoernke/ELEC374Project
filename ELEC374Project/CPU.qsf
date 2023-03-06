@@ -64,9 +64,29 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id shr_TB
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "500 ns" -section_id shr_TB
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME shr_TB -section_id shr_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE shr_TB.v -section_id shr_TB
-set_global_assignment -name VERILOG_FILE shr_TB.v
-set_global_assignment -name VERILOG_FILE shr_32bit.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE sub_32bit.v
+set_global_assignment -name VERILOG_FILE shra_32bit.v
+set_global_assignment -name VERILOG_FILE shl_TB.v
+set_global_assignment -name VERILOG_FILE shl_32bit.v
+set_global_assignment -name VERILOG_FILE ror_32bit.v
+set_global_assignment -name VERILOG_FILE rol_32bit.v
+set_global_assignment -name VERILOG_FILE registerTB.v
+set_global_assignment -name VERILOG_FILE Register.v
+set_global_assignment -name VERILOG_FILE or_32bit.v
+set_global_assignment -name VERILOG_FILE not_32bit.v
+set_global_assignment -name VERILOG_FILE negateTB.v
+set_global_assignment -name VERILOG_FILE negate.v
+set_global_assignment -name VERILOG_FILE mul_32bit.v
+set_global_assignment -name VERILOG_FILE multiplexerTB.v
+set_global_assignment -name VERILOG_FILE multiplexer.v
+set_global_assignment -name VERILOG_FILE MDR.v
+set_global_assignment -name VERILOG_FILE encoder.v
+set_global_assignment -name VERILOG_FILE div_32bit.v
+set_global_assignment -name VERILOG_FILE and_32bit.v
+set_global_assignment -name VERILOG_FILE add_32.v
+set_global_assignment -name VERILOG_FILE shr_TB.v
+set_global_assignment -name VERILOG_FILE shr_32bit.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

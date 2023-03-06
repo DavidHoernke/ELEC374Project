@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at Register.v(9): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at shra_32bit.v(9): always construct contains both blocking and non-blocking assignments

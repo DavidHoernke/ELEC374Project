@@ -3,14 +3,13 @@ module shra(
     input [31:0] shift_num,
     output [31:0] data_out
 );
-    
-    wire[0] temp;
+    integer i;
+    reg temp;
     always @(*) begin
-        assign temp = data_in[31]; //save sign bit
-        assign data_out = (data_in >>  shift_num);
-        for(int i = 0; i < shift_num; ; i++)
-            begin
-                data_out[31-i] = temp;
-            end 
+        temp = data_in[31]; //save sign bit
+        data_out = (data_in >> shift_num);
+        for(i=0; i <= shift_num+1; i=i+1) begin //fixed syntax
+            //data_out[31-i] = temp;
+        end 
     end 
 endmodule
